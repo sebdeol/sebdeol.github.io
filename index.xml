@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sebastien&#39;s ePortfolio</title>
+    <link>https://sebdeol.github.io/</link>
+    <description>Recent content on Sebastien&#39;s ePortfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023, Sebastien P. all rights reserved.</copyright>
+    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sebdeol.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Module Two</title>
+      <link>https://sebdeol.github.io/post/module_two/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/module_two/</guid>
+      <description>Here are another 12 weeks of self reflection, broken down by units. I&amp;rsquo;ve written them in a pretty informal way.
+I hope each reflection will give you some insight into my studies.
+Below is a small extract from the course&amp;rsquo;s website:
+In this module, we will use the Python programming language to support the design and development of object oriented programs. The object oriented analysis and design process will be supported using the Unified Modelling Language (UML).</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://sebdeol.github.io/about_me/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/about_me/</guid>
+      <description>Welcome 👋 I&amp;rsquo;m Sebastien.
+I&amp;rsquo;m currently an MSc Computer Science student at the University of Essex.
+The aim of this ePortfolio is to document and reflect on my studies as I progress through the curriculum.
+You can follow my journey on this site or on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://sebdeol.github.io/contact/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/contact/</guid>
+      <description>Feel free to reach me via email. Otherwise, you can also find me on Github.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Final Reflection</title>
+      <link>https://sebdeol.github.io/post/m2_final_reflection/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2_final_reflection/</guid>
+      <description>Final Reflection Introduction What a module! I won&amp;rsquo;t lie, it&amp;rsquo;s been a long twelve weeks. In between work and the sheer amount of work expected in this module, I didn&amp;rsquo;t have much time to relax. In the first few weeks, I found myself learning more about Python, Object-Oriented Programming (OOP), UML diagrams and the subtle art of writing sustainable and maintainable code. I had no idea what UML was and I struggled to understand its core concepts at the beginning.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 1 </title>
+      <link>https://sebdeol.github.io/post/m2u1/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u1/</guid>
+      <description>An Introduction to Python Programming and the OO Programming Paradigm The first week of module two has been a real eye-opener. The learning materials we&amp;rsquo;ve been given are packed with everything you need to know about object-oriented programming (OOP), from its core concepts to its historical development. In the 2021 paper by Di Silvestro &amp;amp; Nadir, they talk about using ePortfolios to promote deeper, more reflective learning, which is something traditional education often overlooks.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 10</title>
+      <link>https://sebdeol.github.io/post/m2u10/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u10/</guid>
+      <description>Testing Code in Practice I started week 10 by keeping my promise. I posted on the Unit 8 forum, I actually posted two messages. The first message was replying to a fellow student. I managed to critically respond and pinpoint a potential flaw in their discussion. I brought to light the vulnerabilities of IoT systems and how it could potentially impact the systems and brand reputation. The second message was my initial post.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 11</title>
+      <link>https://sebdeol.github.io/post/m2u11/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u11/</guid>
+      <description>Pointers, References &amp;amp; Memory, and Design Patterns Week 11! Assigment week!
+I managed to submit my design implementation assignment on time! I won&amp;rsquo;t lie, I&amp;rsquo;m pretty happy about it. Again, work has been busy and stressful, so having completed the assignment is a total relief. Reflecting on this, I believe I managed to fullfill the requirements I designed a couple of weeks ago. It was nice to be able to turn the UML diagrams into a working python application.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 12</title>
+      <link>https://sebdeol.github.io/post/m2u12/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u12/</guid>
+      <description>Working with Design Patterns to Structure Code That&amp;rsquo;s it, we&amp;rsquo;ve reached the final week of this module!
+I&amp;rsquo;m still in the US with work, and if I am being completely honest, I need to work on my studies a bit harder. I barely touched the final reflection piece. It should be 1000 words so I really need to focus so that I can submit it in time.
+In this unit, there was some interesting reading materials, from Factory design pattern to reusable object-oriented software!</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 2</title>
+      <link>https://sebdeol.github.io/post/m2u2/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u2/</guid>
+      <description>Object Oriented Analysis - Initial Steps towards Programming in Python The second unit of this module had us diving headfirst into the nuts and bolts of how actors interact with software. We also explored functional requirements that shape these interactions. The high point for me was designing use case diagrams and state machine diagrams. These diagrams really help give a clear and concise snapshot on how systems behave and interact with each others.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 3</title>
+      <link>https://sebdeol.github.io/post/m2u3/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u3/</guid>
+      <description>UML The third week of the module was all about getting to know the Unified Modelling Language (UML). I have to be honest, I had never heard of it prior to starting this unit. However, the deeper I studied UML&amp;rsquo;s shared syntax and models, the clearer it became how useful it is in making sure everyone is on the same page when designing an application.
+One thing that really caught my attention was how different UML models come into play at different stages of the Software Development Life Cycle (SDLC).</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 4</title>
+      <link>https://sebdeol.github.io/post/m2u4/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u4/</guid>
+      <description>UML In Week 4, I dug deeper into the world of UML models. This fourth unit introduced class diagrams. Class diagrams are quite important as they show the structure of a system, its classes, their methods, and how each object relates to each other.
+As the week progressed, it felt like these UML diagrams were the blueprints, and I was the builder turning them into actual code. It was pretty cool to see how an abstract idea in a UML diagram could become a fully working software system.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 5</title>
+      <link>https://sebdeol.github.io/post/m2u5/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u5/</guid>
+      <description>More on Classes In unit 5, I explored deeper into Python and object-oriented programming (OOP). The readings helped me with concepts like abstract classes and constructors.
+I also explored polymorphism and composition. These concepts opened my perspective on how to make my code more modular. I found namespaces and packages interesting, as they help avoid naming clashes. I had no idea this was a thing in Python.
+Another week and another ton of learning.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 6</title>
+      <link>https://sebdeol.github.io/post/m2u6/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u6/</guid>
+      <description>Abstract Methods and Interfaces Unit 6, we&amp;rsquo;re half way there! This week was all about interfaces in Python. I discovered that interfaces are fundamental for designing good classes. They help keep things consistent and well-encapsulated. To go the extra mile, I also read another realpython.com article on Python Interfaces (Python, n.d.).
+In Chapter 9 of &amp;ldquo;Python 3 Object-oriented Programming&amp;rdquo; (3rd ed., Packt Publishing, 2018), Philips introduces decorators as a tool for modifying the behaviour of functions.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 7</title>
+      <link>https://sebdeol.github.io/post/m2u7/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u7/</guid>
+      <description>Debugging / Error Handling, Data Structures and Data Search Week seven was all about bugs 🐛 and debugging. It was about understanding how, when and why they crawl into my code and the best ways to boot them out. Honestly, getting hands-on with different error types felt like developing a sixth sense for catching where my code needed a little extra attention.
+I learned about linters, too - they&amp;rsquo;re like those grammar apps, but for Python code.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 8</title>
+      <link>https://sebdeol.github.io/post/m2u8/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u8/</guid>
+      <description>Data Structures and Data Search in Practice This week I was looking into set operations and linear data search techniques. I got to see first-hand how set operations like union, intersection, and others work when handling complex data. I can see how I would apply set operations in my driverless car system design and more specifically in sensors data. This would need to store and handle lots of data so it seems like a perfect match from what I learned.</description>
+    </item>
+    
+    <item>
+      <title>Module 2 - Unit 9</title>
+      <link>https://sebdeol.github.io/post/m2u9/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/m2u9/</guid>
+      <description>Packaging and Testing During week 9, I looked into the less flashy, but no less important, side of programming: packaging, documenting, and testing. These aren&amp;rsquo;t just box-ticking exercises – they&amp;rsquo;re pivotal for maintaining and improving my work effectively.
+I learned that packaging my Python programs is crucial for distributing software easily. I spent some time with the Python Enhancement Proposals, PEP8 and PEP257, and the message was clear – writing clean, readable and tested code is a big deal.</description>
+    </item>
+    
+    <item>
+      <title>Module One</title>
+      <link>https://sebdeol.github.io/post/module_one/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebdeol.github.io/post/module_one/</guid>
+      <description>Coming soon 🚧
+ Unit 1 Unit 2 Unit 3 Unit 4 Unit 5 Unit 6 Unit 7 Unit 8 Unit 9 Unit 10 Unit 11 Unit 12  </description>
+    </item>
+    
+  </channel>
+</rss>
