@@ -109,7 +109,7 @@ This week we dove deep into the variety of system architectures – from the goo
   <meta itemprop="name" content="Module 3 - Unit 10">
 <meta itemprop="description" content="Module three, Unit Ten"><meta itemprop="datePublished" content="2023-10-28T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-10-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="583">
+<meta itemprop="wordCount" content="581">
 <meta itemprop="keywords" content="" />
   
   <meta property="og:title" content="Module 3 - Unit 10" />
@@ -230,7 +230,7 @@ This week we dove deep into the variety of system architectures – from the goo
 <p>The week ended with exploring a telemonitoring system based on a novel microservice architecture, bringing the discussion to a practical, real-world scenario. It’s amazing to think how these architectures are not just academic concepts but are actively shaping the future of healthcare and beyond.</p>
 <p>It reminded me of Babylon Health, now an excting startup, but while I worked there, we were all about using technology to enable better healthcare.</p>
 <p>Week 10 was like fitting the pieces of a puzzle together – challenging, enlightening, and obvisoly satisfying. Next week is assignment week!</p>
-<p># Activities</p>
+<h2 id="activities">Activities</h2>
 <p>Faceted data refers to a method of organising information, making it easier to filter and retrieve necessary data according to specific criteria. This approach can be beneficial in protecting systems from data leakage, as it allows for fine-grained access control and ensures that users are only able to access the specific data they are authorised to view.</p>
 <p>Pros:
 Fine-Grained Access Control: By categorising data into different facets, it becomes easier to assign specific access rights based on user roles or requirements.
@@ -240,7 +240,7 @@ Enhanced Security: By limiting access to only the necessary data for each user, 
 Complexity: Implementing a faceted data model can add complexity to a system, both in terms of development and ongoing maintenance.
 Performance Overheads: The additional layers of access control could potentially lead to performance overheads, particularly in systems with large volumes of data.
 Potential for Misconfiguration: Like any security system, if not properly configured, a faceted data model could potentially introduce vulnerabilities.</p>
-<p># Python design</p>
+<h2 id="python-design">Python design</h2>
 <p>Define Data Model: Create classes to represent the different facets of data:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python3" data-lang="python3"><span style="display:flex;"><span><span style="color:#f92672">from</span> sqlalchemy <span style="color:#f92672">import</span> create_engine, Column, String, Integer
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sqlalchemy.ext.declarative <span style="color:#f92672">import</span> declarative_base
