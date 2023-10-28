@@ -1,0 +1,316 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Module 3 - Unit 3 - </title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Unit 4: Exploring Programming Language Concepts Welcome back! In Week 4, we explored the fascinating interplay between key programming concepts and system security, focusing on regular expressions and recursion.
+I was amazed to see how powerful yet potentially dangerous regular expressions can be. Learning about their ability to cause ReDoS attacks opened my eyes to the importance of careful implementation. It’s clear that while they are indispensable for text manipulation, they require a thoughtful approach to ensure security." />
+  <meta name="author" content="Sebastien" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  <script
+    defer
+    src="highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.119.0">
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Module 3 - Unit 3">
+<meta itemprop="description" content="Module three, Unit Four"><meta itemprop="datePublished" content="2023-10-28T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-10-28T00:00:00+00:00" />
+<meta itemprop="wordCount" content="437">
+<meta itemprop="keywords" content="" />
+  
+  <meta property="og:title" content="Module 3 - Unit 3" />
+<meta property="og:description" content="Module three, Unit Four" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/m3u4/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-10-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-10-28T00:00:00+00:00" />
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Module 3 - Unit 3"/>
+<meta name="twitter:description" content="Module three, Unit Four"/>
+
+  
+  
+  
+  <link rel="canonical" href="/post/m3u4/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://sebdeol.github.io/"
+      >Sebastien's ePortfolio</a
+    >
+  </div>
+
+  <div class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <a class="block text-center leading-[5rem] lg:text-base lg:font-normal" href="/about_me/">About Me</a>
+  </div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute(lightBg);
+      localStorage.setItem('dark', "remove");
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Module 3 - Unit 3</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Oct 28, 2023</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>Sebastien</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h2 id="unit-4-exploring-programming-language-concepts">Unit 4: Exploring Programming Language Concepts</h2>
+<p>Welcome back! In Week 4, we explored the fascinating interplay between key programming concepts and system security, focusing on regular expressions and recursion.</p>
+<p>I was amazed to see how powerful yet potentially dangerous regular expressions can be. Learning about their ability to cause ReDoS attacks opened my eyes to the importance of careful implementation. It’s clear that while they are indispensable for text manipulation, they require a thoughtful approach to ensure security.</p>
+<p>Recursion, on the other hand, was a lesson in efficiency and risk. While it offers a clean and elegant way to solve problems, it can lead to issues such as stack overflow if not handled properly. The hands-on exercises were particularly helpful in understanding how to use recursion safely.</p>
+<p>The security implications of these concepts were a key part of this week. Analysing real-world incidents helped me connect the dots between programming practices and potential vulnerabilities.</p>
+<p># Activities</p>
+<p>Understanding Regular Expressions and Security</p>
+<p>After going through the Larson (2018) and Weidman (n.d.) research piece, I have gathered a better understanding of Regular Expression Denial of Service (ReDoS), the role of &lsquo;Evil Regex&rsquo;, and the various aspects of regular expressions in the context of security.</p>
+<p>Here’s my reflection and answers to the provided questions:</p>
+<ol>
+<li>
+<p>What is ReDoS and what part do ‘Evil Regex’ play?
+ReDoS, or Regular Expression Denial of Service, is a type of Denial of Service (DoS) attack where an attacker feeds a regular expression engine with input that takes an extremely long time to evaluate. The &lsquo;Evil Regex&rsquo; plays a crucial part in this, as they are regular expressions that involve complex matchings and backtrackings, causing the system to consume a disproportionate amount of time and resources, leading to service unavailability.</p>
+</li>
+<li>
+<p>What are the common problems associated with the use of regex? How can these be mitigated?</p>
+</li>
+</ol>
+<p>Common problems with regex include:
+Performance Issues: Complex regex patterns can lead to significant slowdowns.
+ReDoS Vulnerabilities: As mentioned, certain patterns can be exploited for DoS attacks.
+Maintainability: Complex regex can be hard to read and maintain, leading to potential errors and vulnerabilities.</p>
+<p>Mitigations include:
+Avoiding Excessive Backtracking: Simplify patterns and avoid nested quantifiers.
+Input Validation: Ensure inputs are validated before being processed by regex patterns.
+Timeouts: Implement timeouts for regex evaluations to prevent excessive resource consumption.</p>
+<ol start="3">
+<li>How and why could regex be used as part of a security solution?</li>
+</ol>
+<p>Data Validation: Ensuring that user inputs conform to expected patterns, helping to prevent SQL injection, XSS, and other input-based attacks.
+Log Analysis: Searching and analysing logs for signs of suspicious activity.
+Intrusion Detection: Identifying known attack signatures in network traffic.</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    <a
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="/post/m3u3/"
+      ><span class="mr-1.5">←</span><span>Module 3 - Unit 3</span></a
+    >
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="/post/m3u5/"
+      ><span>Module 3 - Unit 3</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2023
+    <a class="link" href="https://sebdeol.github.io/">Sebastien P.</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>

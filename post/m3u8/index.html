@@ -1,0 +1,329 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Module 3 - Unit 8 - </title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Unit 8: Cryptography and Its Use in Operating Systems We&rsquo;re now in the final units for this module. On a personal level, I know that the upcoming 4 weeks will be challenging. Work wants me in the US for the next 4 weeks as we&rsquo;ve planning next&rsquo;s year roadmap. Unfortunately, this is when this course picks up and you have to hand over a few marked assignments. However, I&rsquo;ll do my best to keep everything under control!" />
+  <meta name="author" content="Sebastien" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  <script
+    defer
+    src="highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.119.0">
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Module 3 - Unit 8">
+<meta itemprop="description" content="Module three, Unit Eight"><meta itemprop="datePublished" content="2023-10-28T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-10-28T00:00:00+00:00" />
+<meta itemprop="wordCount" content="680">
+<meta itemprop="keywords" content="" />
+  
+  <meta property="og:title" content="Module 3 - Unit 8" />
+<meta property="og:description" content="Module three, Unit Eight" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/m3u8/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-10-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-10-28T00:00:00+00:00" />
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Module 3 - Unit 8"/>
+<meta name="twitter:description" content="Module three, Unit Eight"/>
+
+  
+  
+  
+  <link rel="canonical" href="/post/m3u8/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://sebdeol.github.io/"
+      >Sebastien's ePortfolio</a
+    >
+  </div>
+
+  <div class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <a class="block text-center leading-[5rem] lg:text-base lg:font-normal" href="/about_me/">About Me</a>
+  </div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute(lightBg);
+      localStorage.setItem('dark', "remove");
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Module 3 - Unit 8</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Oct 28, 2023</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>Sebastien</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h2 id="unit-8-cryptography-and-its-use-in-operating-systems">Unit 8: Cryptography and Its Use in Operating Systems</h2>
+<p>We&rsquo;re now in the final units for this module. On a personal level, I know that the upcoming 4 weeks will be challenging.
+Work wants me in the US for the next 4 weeks as we&rsquo;ve planning next&rsquo;s year roadmap. Unfortunately, this is when this course picks up and you have to hand over a few marked assignments. However, I&rsquo;ll do my best to keep everything under control!</p>
+<p>Week 8, cryptography and its use in Operating Systems (OS). Trust me, this week was like unmasking a superhero, discovering how cryptography shields our data.</p>
+<p>We kicked off with understanding what cryptography is all about. Convert a password into a salted hash? Sounds good to me! If I can&rsquo;t understand my data, I&rsquo;m not sure hackers would either! We then explored how it plays a crucial role in OS. It’s not just about making things secure; it’s about making sure that even if something goes wrong, your data stays safe.</p>
+<p>We went through a case study on TrueCrypt, a popular cryptographic tool. It’s amazing how a tool like this one can add an extra layer of security to the OS. Unfortunately, TrueCrypt can&rsquo;t be recommended anymore. I&rsquo;d personally recommend people just use the builtin software from their OS.</p>
+<p>My discussion on TrueCrypt is below, but I was glad to hear what my peers had to say. A fellow student suggested that I should have given an alternative to TrueCrypt. So here it is: BitLocker for Windows, FireVault for MacOS.</p>
+<p>The practical part was great. We got our hands dirty with some cryptographic libraries and created a basic application. I encoded some sample data, and voila! It was like turning a message into a secret code.</p>
+<p>I now understand the issues with cryptographic libraries, their pros and cons, and how they’re not just tools but weapons for securing data.</p>
+<p>This week has been a journey from understanding the basics of cryptography to applying it in real life. I now feel more confident about using cryptographic libraries in my future projects.</p>
+<p># Activities</p>
+<p>TrueCrypt discussion</p>
+<p>In 2014, TrueCrypt, once a pioneer in encryption software, ended its journey quite abruptly. Not only did it provide a robust solution for creating encrypted volumes on various operating systems, but it also allowed for the entire encryption of the OS, notably in Windows XP. The anonymous creators left the users with a somewhat eerie message about potential, unfixed security issues, which naturally stirred up the tech community (TrueCrypt, 2014).</p>
+<p>Jumping into the detailed analysis by Junestam &amp; Guigo (2014), we don’t get a definite black-and-white answer. The software isn’t outrightly dismissed as insecure. However, the exploration does highlight various areas of concern and potential flaws in its implementation, revealing that while TrueCrypt had solid theoretical underpinnings, the practical application was not without its issues.</p>
+<p>I would not recommend a friend to use TrueCrypt, I would suggest they use a more current and updated application instead. TrueCrypt had its golden days, but with highlighted vulnerabilities and no current support, it’s a precarious choice for safeguarding sensitive data. Any use should come with a clear warning about its discontinued status and the potential risks that come with it.</p>
+<p>Ontology Design for TrueCrypt&rsquo;s Weaknesses
+Cryptographic Vulnerabilities</p>
+<ul>
+<li>Severity: High</li>
+<li>Impact: Data Confidentiality</li>
+<li>Example: Weaknesses in the encryption algorithms or their implementation, which might make it easier for unauthorised entities to decrypt sensitive data.</li>
+<li>User Impact: If bank details are stored, a breach of confidentiality could lead to financial loss.</li>
+</ul>
+<p>Software Stability Issues</p>
+<ul>
+<li>Severity: Medium</li>
+<li>Impact: Data Integrity</li>
+<li>Example: Bugs or errors that could cause the software corrupt data.</li>
+<li>User Impact: Users could lose access to important files.</li>
+</ul>
+<p>User Interface (UI) &amp; Usability Issues</p>
+<ul>
+<li>Severity: Low</li>
+<li>Impact: User Experience</li>
+<li>Example: Complex or non-intuitive UI which might deter regular usage.</li>
+<li>User Impact: Difficulty in utilising the software effectively, which may lead to user dissatisfaction.</li>
+</ul>
+<p>References</p>
+<ul>
+<li>
+<p>TrueCrypt (2014). TrueCrypt. [online] Available from: <a href="http://truecrypt.sourceforge.net">http://truecrypt.sourceforge.net</a> [Accessed 4 Oct. 2023].</p>
+</li>
+<li>
+<p>Junestam, A. &amp; Guigo N. (2014). Open Crypto Audit Project TrueCrypt [online] Available from: <a href="https://opencryptoaudit.org/reports/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf">https://opencryptoaudit.org/reports/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf</a> [Accessed 4 Oct. 2023].</p>
+</li>
+</ul>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    <a
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="/post/m3u7/"
+      ><span class="mr-1.5">←</span><span>Module 3 - Unit 7</span></a
+    >
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="/post/m3u9/"
+      ><span>Module 3 - Unit 9</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2023
+    <a class="link" href="https://sebdeol.github.io/">Sebastien P.</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>

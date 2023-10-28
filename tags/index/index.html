@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!doctype html>
+
 
 
 
@@ -41,7 +42,7 @@
   />
 
   
-  <title>index - Sebastien&#39;s ePortfolio</title>
+  <title>index - </title>
 
   
   <meta name="theme-color" />
@@ -50,11 +51,12 @@
   
   
   
+  
   <meta
     name="description"
     content="A personal blog"
   />
-  <meta name="author" content="Sebastien&#39;s ePortfolio" />
+  <meta name="author" content="" />
   
 
   
@@ -63,63 +65,68 @@
   
   
   
-  <link rel="preload stylesheet" as="style" href="https://sebdeol.github.io/main.min.css" />
-
-  
-
-  
-   
-  <link rel="preload" as="image" href="https://sebdeol.github.io/theme.png" />
+  <link rel="preload stylesheet" as="style" href="/main.min.css" />
 
   
   
   
   
+  
+  <link rel="preload" as="image" href="theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
 
   
   
 
   
   
+  
 
   
-  <link rel="icon" href="https://sebdeol.github.io/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://sebdeol.github.io/apple-touch-icon.png" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
   
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.119.0">
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="index">
+<meta itemprop="description" content="">
+  
+  <meta property="og:title" content="index" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/index/" />
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="index"/>
+<meta name="twitter:description" content=""/>
 
   
   
   <link
     rel="alternate"
     type="application/rss&#43;xml"
-    href="https://sebdeol.github.io/tags/index/index.xml"
-    title="Sebastien&#39;s ePortfolio"
+    href="/tags/index/index.xml"
+    title=""
   />
   
-
   
-  
-  
-  
-  
-  
-  
-  <meta property="og:title" content="index" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://sebdeol.github.io/tags/index/" />
-
-
-  
-  <meta itemprop="name" content="index">
-<meta itemprop="description" content="">
-  
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="index"/>
-<meta name="twitter:description" content=""/>
-
+  <link rel="canonical" href="/tags/index/" />
   
   
 </head>
@@ -130,16 +137,16 @@
     <a
       class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
       href="https://sebdeol.github.io/"
-      >Sebastien&#39;s ePortfolio</a
+      >Sebastien's ePortfolio</a
     >
   </div>
-  <div
-    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-    role="button"
-    aria-label="Menu"
-  ></div>
+
+  <div class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <a class="block text-center leading-[5rem] lg:text-base lg:font-normal" href="/about_me/">About Me</a>
+  </div>
 
   
+
   <script>
     
     const htmlClass = document.documentElement.classList;
@@ -157,18 +164,17 @@
     const metaTheme = document.querySelector('meta[name="theme-color"]');
     const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
-      htmlClass[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark);
+      metaTheme.setAttribute(lightBg);
+      localStorage.setItem('dark', "remove");
     };
 
     
     const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
     if (htmlClass.contains('dark')) {
-      setDark(false);
+      setDark(true);
     } else {
       const darkVal = localStorage.getItem('dark');
-      setDark(false);
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
     }
 
     
@@ -176,27 +182,12 @@
       setDark(event.matches);
     });
 
-    
-    const btnDark = document.querySelector('.btn-dark');
-    btnDark.addEventListener('click', () => {
-      setDark(localStorage.getItem('dark') !== 'true');
-    });
   </script>
 
   <div
     class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
   >
     
-    
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/about_me/"
-        >About Me</a
-      >
-      
-    </nav>
     
 
     
@@ -214,15 +205,23 @@
 <h1 class="mb-16">#index</h1>
 
 
-
-
-
+<h2 class="!my-0 pb-1 font-bold !leading-none">Hi 👋 I'm Sebastien.</h2>
+<br>
+<section>Welcome to my ePortfolio!</section>
+<br>
+<section>I'm currently an MSc Computer Science student at the <a href="https://online.essex.ac.uk/">University of Essex.</a></section>
+<section>The aim of this website is to document and reflect on my studies as I progress through the curriculum.</section>
+<br>
+<section>You are more than welcome to reach out by <a href="mailto:128300508+sebdeol@users.noreply.github.com">email.</a></section>
+<br>
 
 
  
 
+ 
 
 
+ 
 
 
     </main>
@@ -232,7 +231,7 @@
 >
   <div class="mr-auto">
     &copy; 2023
-    <a class="link" href="https://sebdeol.github.io/">Sebastien&#39;s ePortfolio</a>
+    <a class="link" href="https://sebdeol.github.io/">Sebastien P.</a>
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
     >Powered by Hugo️️</a

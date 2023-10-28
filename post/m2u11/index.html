@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!doctype html>
+
 
 
 
@@ -41,11 +42,12 @@
   />
 
   
-  <title>Module 2 - Unit 11 - Sebastien&#39;s ePortfolio</title>
+  <title>Module 2 - Unit 11 - </title>
 
   
   <meta name="theme-color" />
 
+  
   
   
   
@@ -60,56 +62,49 @@ I managed to submit my design implementation assignment on time! I won&rsquo;t l
   
   
   
-  <link rel="preload stylesheet" as="style" href="https://sebdeol.github.io/main.min.css" />
+  <link rel="preload stylesheet" as="style" href="/main.min.css" />
 
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
   
   <script
     defer
-    src="https://sebdeol.github.io/highlight.min.js"
+    src="highlight.min.js"
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   
 
   
-   
-  <link rel="preload" as="image" href="https://sebdeol.github.io/theme.png" />
+  
+  
+
+  
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.119.0">
 
   
   
   
   
-
-  
-  
-
-  
-  
-
-  
-  <link rel="icon" href="https://sebdeol.github.io/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://sebdeol.github.io/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.96.0" />
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  <meta property="og:title" content="Module 2 - Unit 11" />
-<meta property="og:description" content="Module two, Unit Eleven" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://sebdeol.github.io/post/m2u11/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2023-07-23T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-07-23T00:00:00+00:00" />
-
-
   
   <meta itemprop="name" content="Module 2 - Unit 11">
 <meta itemprop="description" content="Module two, Unit Eleven"><meta itemprop="datePublished" content="2023-07-23T00:00:00+00:00" />
@@ -117,10 +112,22 @@ I managed to submit my design implementation assignment on time! I won&rsquo;t l
 <meta itemprop="wordCount" content="264">
 <meta itemprop="keywords" content="" />
   
+  <meta property="og:title" content="Module 2 - Unit 11" />
+<meta property="og:description" content="Module two, Unit Eleven" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/m2u11/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-07-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-07-23T00:00:00+00:00" />
+
+  
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Module 2 - Unit 11"/>
 <meta name="twitter:description" content="Module two, Unit Eleven"/>
 
+  
+  
+  
+  <link rel="canonical" href="/post/m2u11/" />
   
   
 </head>
@@ -131,16 +138,16 @@ I managed to submit my design implementation assignment on time! I won&rsquo;t l
     <a
       class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
       href="https://sebdeol.github.io/"
-      >Sebastien&#39;s ePortfolio</a
+      >Sebastien's ePortfolio</a
     >
   </div>
-  <div
-    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-    role="button"
-    aria-label="Menu"
-  ></div>
+
+  <div class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <a class="block text-center leading-[5rem] lg:text-base lg:font-normal" href="/about_me/">About Me</a>
+  </div>
 
   
+
   <script>
     
     const htmlClass = document.documentElement.classList;
@@ -158,18 +165,17 @@ I managed to submit my design implementation assignment on time! I won&rsquo;t l
     const metaTheme = document.querySelector('meta[name="theme-color"]');
     const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
-      htmlClass[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark);
+      metaTheme.setAttribute(lightBg);
+      localStorage.setItem('dark', "remove");
     };
 
     
     const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
     if (htmlClass.contains('dark')) {
-      setDark(false);
+      setDark(true);
     } else {
       const darkVal = localStorage.getItem('dark');
-      setDark(false);
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
     }
 
     
@@ -177,27 +183,12 @@ I managed to submit my design implementation assignment on time! I won&rsquo;t l
       setDark(event.matches);
     });
 
-    
-    const btnDark = document.querySelector('.btn-dark');
-    btnDark.addEventListener('click', () => {
-      setDark(localStorage.getItem('dark') !== 'true');
-    });
   </script>
 
   <div
     class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
   >
     
-    
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/about_me/"
-        >About Me</a
-      >
-      
-    </nav>
     
 
     
@@ -247,22 +238,27 @@ Available at: <a href="https://medium.com/codex/what-are-the-greenest-programmin
   
   
   
+  
   <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
     
     <a
       class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://sebdeol.github.io/post/m2u10/"
+      href="/post/m2u10/"
       ><span class="mr-1.5">←</span><span>Module 2 - Unit 10</span></a
     >
     
     
     <a
       class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://sebdeol.github.io/post/m2u12/"
+      href="/post/m2u12/"
       ><span>Module 2 - Unit 12</span><span class="ml-1.5">→</span></a
     >
     
   </nav>
+  
+  
+
+  
   
 
   
@@ -280,7 +276,7 @@ Available at: <a href="https://medium.com/codex/what-are-the-greenest-programmin
 >
   <div class="mr-auto">
     &copy; 2023
-    <a class="link" href="https://sebdeol.github.io/">Sebastien&#39;s ePortfolio</a>
+    <a class="link" href="https://sebdeol.github.io/">Sebastien P.</a>
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
     >Powered by Hugo️️</a
