@@ -51,8 +51,9 @@
   
   
   
-  <meta name="description" content="Unit 5: An Introduction to Testing Wow, week 5 already! Time flies! This week, we were challenged with the world of software testing. It’s been a bit tough, trying to get my head around all the testing lingo, different techniques, and tools out there.
-We’ve covered a lot of material, from setting up a solid test plan and understanding the standards in the industry to digging into a bunch of testing methods." />
+  <meta name="description" content="Unit 5: An Introduction to Testing Wow, week 5 already! Time flies! This week, we were challenged with software testing. It’s been a bit tough, trying to get my head around all the testing lingo, different techniques, and tools out there.
+We’ve covered a lot of material, from setting up a solid test plan and understanding the standards in the industry to digging into a bunch of testing methods.
+After this week, I feel more confident to:" />
   <meta name="author" content="Sebastien" />
   
 
@@ -109,7 +110,7 @@ We’ve covered a lot of material, from setting up a solid test plan and underst
   <meta itemprop="name" content="Module 3 - Unit 3">
 <meta itemprop="description" content="Module three, Unit Five"><meta itemprop="datePublished" content="2023-10-28T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-10-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="374">
+<meta itemprop="wordCount" content="522">
 <meta itemprop="keywords" content="" />
   
   <meta property="og:title" content="Module 3 - Unit 3" />
@@ -221,7 +222,7 @@ We’ve covered a lot of material, from setting up a solid test plan and underst
   </header>
 
   <section><h2 id="unit-5-an-introduction-to-testing">Unit 5: An Introduction to Testing</h2>
-<p>Wow, week 5 already! Time flies! This week, we were challenged with the world of software testing. It’s been a bit tough, trying to get my head around all the testing lingo, different techniques, and tools out there.</p>
+<p>Wow, week 5 already! Time flies! This week, we were challenged with software testing. It’s been a bit tough, trying to get my head around all the testing lingo, different techniques, and tools out there.</p>
 <p>We’ve covered a lot of material, from setting up a solid test plan and understanding the standards in the industry to digging into a bunch of testing methods.</p>
 <p>After this week, I feel more confident to:</p>
 <ul>
@@ -232,7 +233,35 @@ We’ve covered a lot of material, from setting up a solid test plan and underst
 <p>This week wasn’t just about learning the tools of the trade; it was about understanding why testing is such a game changer in software development. It’s all about spotting those weak spots in the software where attacks could happen and doing something about it before it’s too late.</p>
 <p>All in all, Week 5 has been pretty good. It’s made me realise just how crucial testing is, not just for making sure everything works, but for keeping things secure.</p>
 <p>I’m walking away with a whole new perspective on how important it is to build security into software from the get-go. I really cannot wait to put all of this into practice!</p>
-<h2 id="activities">Activities</h2>
+<h2 id="code">Code</h2>
+<p>Last week I provided a simple code snippet of a python function that would add two nunbers together.
+While exploring testing this week I thought it would be worthwhile to also try to write some simple test functions:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python3" data-lang="python3"><span style="display:flex;"><span><span style="color:#f92672">import</span> pytest
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Defining the function that we are going to test</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_numbers</span>(a, b):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Test case to check the addition of two positive numbers</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_add_positive_numbers</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">assert</span> add_numbers(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Test case to check the addition of two negative numbers</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_add_negative_numbers</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">assert</span> add_numbers(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>) <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Test case to check the addition of one positive and one negative number</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_add_mixed_sign_numbers</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">assert</span> add_numbers(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Test case to check the addition of decimal numbers</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_add_decimals</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">assert</span> add_numbers(<span style="color:#ae81ff">1.5</span>, <span style="color:#ae81ff">2.5</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Test case to check the addition when both numbers are zeros</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_add_zeros</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">assert</span> add_numbers(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>
+</span></span></code></pre></div><h2 id="activities">Activities</h2>
 <p>Equivalence Testing in Python</p>
 <p>The script’s equivalence_partition function efficiently categorises an iterable into equivalence classes based on a given relation.</p>
 <p>In the example code, integers from -3 to 4 are grouped under the relation (x - y) % 4 == 0, showcasing how numbers with differences divisible by 4 are placed in the same class.</p>

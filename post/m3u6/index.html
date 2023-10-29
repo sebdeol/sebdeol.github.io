@@ -52,7 +52,7 @@
   
   
   <meta name="description" content="Unit 6: Using Linters to Support Python Testing Week 6! We&rsquo;re half way there!
-This week, I studied linters and their vital part in enhancing Python code quality. While linters don&rsquo;t make your code better per say, they definetely help you in your day to day job and take away some cognitive load to help you better focus on the code.
+This week, I studied linters and their vital part in enhancing Python code quality. While linters don&rsquo;t make your code better per say, they definitely help you in your day to day job and take away some cognitive load to help you better focus on the code.
 Working with various linters, I discovered that while they aim to achieve similar goals, each has its unique strengths and applicability in different scenarios." />
   <meta name="author" content="Sebastien" />
   
@@ -110,7 +110,7 @@ Working with various linters, I discovered that while they aim to achieve simila
   <meta itemprop="name" content="Module 3 - Unit 3">
 <meta itemprop="description" content="Module three, Unit Six"><meta itemprop="datePublished" content="2023-10-28T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-10-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="310">
+<meta itemprop="wordCount" content="502">
 <meta itemprop="keywords" content="" />
   
   <meta property="og:title" content="Module 3 - Unit 3" />
@@ -223,7 +223,7 @@ Working with various linters, I discovered that while they aim to achieve simila
 
   <section><h2 id="unit-6-using-linters-to-support-python-testing">Unit 6: Using Linters to Support Python Testing</h2>
 <p>Week 6! We&rsquo;re half way there!</p>
-<p>This week, I studied linters and their vital part in enhancing Python code quality. While linters don&rsquo;t make your code better per say, they definetely help you in your day to day job and take away some cognitive load to help you better focus on the code.</p>
+<p>This week, I studied linters and their vital part in enhancing Python code quality. While linters don&rsquo;t make your code better per say, they definitely help you in your day to day job and take away some cognitive load to help you better focus on the code.</p>
 <p>Working with various linters, I discovered that while they aim to achieve similar goals, each has its unique strengths and applicability in different scenarios. They act as vigilant watchdogs, ensuring code consistency and helping to catch potential errors before they escalate.</p>
 <p>I&rsquo;ve experimented with a few different linters this week, Flake8, Pylama, Pylint, Ruff just to name a few. My favourite is Ruff. It&rsquo;s light and blazing fast. I think I&rsquo;ll use it for the coding output in week 11.</p>
 <p>The readings, particularly &ldquo;Secure Feature Driven Development (SFDD) Model&rdquo; by Firdaus, Ghani, and Jeong, provided valuable insights into integrating security at the developmental stage. This connection between high-quality code and security is crucial, and it’s something I’m now more mindful of.</p>
@@ -231,6 +231,47 @@ Working with various linters, I discovered that while they aim to achieve simila
 <p>This week we also had to submit the Design Document as a team. We met with my fellow students a couple of times to discuss how to design our application.
 We have choosen a Learning Management System (LMS) application for a school. As a current student, this made perfect sense to me!</p>
 <p>I believe we did good, we received a 69% grade, 1 mark off the distinction level! Not bad, but I&rsquo;m a bit gutted. Hopefully, we can get there on the next assignment.</p>
+<h2 id="code">Code</h2>
+<p>Here&rsquo;s a sample of python code and how three different linter (Flake8, Black, Pylint) would react:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python3" data-lang="python3"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add</span>(a,b):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a<span style="color:#f92672">+</span>b
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>result<span style="color:#f92672">=</span>add(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Sum is:&#34;</span>,result)
+</span></span></code></pre></div><ol>
+<li>Flake8</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sample.py:1:9: E231 missing whitespace after <span style="color:#e6db74">&#39;,&#39;</span>
+</span></span><span style="display:flex;"><span>sample.py:2:10: E225 missing whitespace around operator
+</span></span><span style="display:flex;"><span>sample.py:4:1: E303 too many blank lines <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>sample.py:4:6: E221 multiple spaces before operator
+</span></span><span style="display:flex;"><span>sample.py:4:13: E231 missing whitespace after <span style="color:#e6db74">&#39;,&#39;</span>
+</span></span></code></pre></div><ol start="2">
+<li>Black
+It&rsquo;s interesting to see black just auto formats all the code for you. It definitely saves you times.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python3" data-lang="python3"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add</span>(a, b):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> add(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Sum is:&#34;</span>, result)
+</span></span></code></pre></div><ol start="3">
+<li>Pylint</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>************* Module sample
+</span></span><span style="display:flex;"><span>sample.py:1:0: C0103: Function name <span style="color:#e6db74">&#34;add&#34;</span> doesn<span style="color:#960050;background-color:#1e0010">&#39;</span>t conform to snake_case naming style <span style="color:#f92672">(</span>invalid-name<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>sample.py:1:8: C0326: Exactly one space required after comma <span style="color:#f92672">(</span>bad-whitespace<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>sample.py:2:0: C0303: Trailing whitespace <span style="color:#f92672">(</span>trailing-whitespace<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>sample.py:2:11: C0326: Exactly one space required around operator <span style="color:#f92672">(</span>bad-whitespace<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>sample.py:4:0: C0304: Final newline missing <span style="color:#f92672">(</span>missing-final-newline<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>sample.py:4:7: C0326: Exactly one space required before assignment <span style="color:#f92672">(</span>bad-whitespace<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>sample.py:4:13: C0326: Exactly one space required after comma <span style="color:#f92672">(</span>bad-whitespace<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>-----------------------------------
+</span></span><span style="display:flex;"><span>Your code has been rated at -12.50/10
+</span></span></code></pre></div><p>You can see that those three tools do the same thing but in completely different ways.
+This has left me wondering if you can combine them together to make your code better.</p>
 </section>
 
   

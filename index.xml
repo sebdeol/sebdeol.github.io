@@ -56,9 +56,9 @@ We’ve talked about a lot of different topics in this module, but this week, it
       
       <guid>/post/m3u12/</guid>
       <description>Unit 12: The Great Tanenbaum-Torvalds Debate Revisited Welcome to the grand finale of our SSD journey, Week 12!
-Todo.
-Activities This week, I unfortunately didn&amp;rsquo;t have time to participate in the Team Activity. My current workload, the time zone difference and the LMS assignment have all contributed to the lack of engagement with my fellow students.
-I don&amp;rsquo;t like not participating, but I was out of depth here, juggling everything was tough.</description>
+In the concluding week of this module, we revisited the historic Tanenbaum-Torvalds debate: monolithic and microkernel-based operating systems.
+Tanenbaum championed microkernels for their modularity and fault isolation, while Torvalds demonstrated the practical efficiency of monolithic kernels with Linux. The 1992 hardware limitations framed their discussions, starkly contrasting today’s cloud-centric, security-threatened environment.
+Our readings, including works by Biggs et al.</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@ I don&amp;rsquo;t like not participating, but I was out of depth here, juggling 
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/m3u3/</guid>
-      <description>Unit 3: Programming Languages: History, Concepts &amp;amp; Design Hi! This third week has been a thrilling deep dive into the history, concepts, and designs of programming languages, and I’m excited to share it with you.
+      <description>Unit 3: Programming Languages: History, Concepts &amp;amp; Design Hi! This third week has been great! We explored the history, concepts, and designs of programming languages.
 We started the week with a journey through the evolution of programming languages. It was like time traveling, from the early days of machine code and assembly language with the SSEM and Cambridge EDSAC, all the way to the iconic 1950s with the birth of Cobol, Fortran, Lisp, and ALGOL.</description>
     </item>
     
@@ -86,7 +86,7 @@ We started the week with a journey through the evolution of programming language
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/m3u4/</guid>
-      <description>Unit 4: Exploring Programming Language Concepts Welcome back! In Week 4, we explored the fascinating interplay between key programming concepts and system security, focusing on regular expressions and recursion.
+      <description>Unit 4: Exploring Programming Language Concepts Welcome back! In Week 4, we explored the interplay between key programming concepts and system security, focusing on regular expressions and recursion.
 I was amazed to see how powerful yet potentially dangerous regular expressions can be. Learning about their ability to cause ReDoS attacks opened my eyes to the importance of careful implementation. It’s clear that while they are indispensable for text manipulation, they require a thoughtful approach to ensure security.</description>
     </item>
     
@@ -96,8 +96,9 @@ I was amazed to see how powerful yet potentially dangerous regular expressions c
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/m3u5/</guid>
-      <description>Unit 5: An Introduction to Testing Wow, week 5 already! Time flies! This week, we were challenged with the world of software testing. It’s been a bit tough, trying to get my head around all the testing lingo, different techniques, and tools out there.
-We’ve covered a lot of material, from setting up a solid test plan and understanding the standards in the industry to digging into a bunch of testing methods.</description>
+      <description>Unit 5: An Introduction to Testing Wow, week 5 already! Time flies! This week, we were challenged with software testing. It’s been a bit tough, trying to get my head around all the testing lingo, different techniques, and tools out there.
+We’ve covered a lot of material, from setting up a solid test plan and understanding the standards in the industry to digging into a bunch of testing methods.
+After this week, I feel more confident to:</description>
     </item>
     
     <item>
@@ -107,7 +108,7 @@ We’ve covered a lot of material, from setting up a solid test plan and underst
       
       <guid>/post/m3u6/</guid>
       <description>Unit 6: Using Linters to Support Python Testing Week 6! We&amp;rsquo;re half way there!
-This week, I studied linters and their vital part in enhancing Python code quality. While linters don&amp;rsquo;t make your code better per say, they definetely help you in your day to day job and take away some cognitive load to help you better focus on the code.
+This week, I studied linters and their vital part in enhancing Python code quality. While linters don&amp;rsquo;t make your code better per say, they definitely help you in your day to day job and take away some cognitive load to help you better focus on the code.
 Working with various linters, I discovered that while they aim to achieve similar goals, each has its unique strengths and applicability in different scenarios.</description>
     </item>
     
@@ -127,7 +128,7 @@ Operating Systems, are like the backstage crew of a rock concert. You don’t se
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/m3u8/</guid>
-      <description>Unit 8: Cryptography and Its Use in Operating Systems We&amp;rsquo;re now in the final units for this module. On a personal level, I know that the upcoming 4 weeks will be challenging. Work wants me in the US for the next 4 weeks as we&amp;rsquo;ve planning next&amp;rsquo;s year roadmap. Unfortunately, this is when this course picks up and you have to hand over a few marked assignments. However, I&amp;rsquo;ll do my best to keep everything under control!</description>
+      <description>Unit 8: Cryptography and Its Use in Operating Systems We&amp;rsquo;re now in the final units for this module. On a personal level, I know that the upcoming 4 weeks will be challenging. Work wants me in the US for the next few weeks as we&amp;rsquo;re planning next&amp;rsquo;s year roadmap. Unfortunately, this is when this course picks up and you have to hand over a few marked assignments. However, I&amp;rsquo;ll do my best to keep everything under control!</description>
     </item>
     
     <item>
@@ -136,7 +137,7 @@ Operating Systems, are like the backstage crew of a rock concert. You don’t se
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/m3u9/</guid>
-      <description>Unit 9: Developing an API for a Distributed Environment If you thought the past weeks were intense, brace yourself! Week 9 has thrown me right into the thick of developing an API for a distributed environment. With work demanding my presence in the US and my studies ramping up, it’s been a tough week, but hey, what&amp;rsquo;s life without a challenge or two?
+      <description>Unit 9: Developing an API for a Distributed Environment If you thought the past weeks were intense, brace yourself! Week 9 has thrown me right into the thick of developing APIs for a distributed environment. With work in the US and my studies ramping up, it’s been a tough week, but hey, what&amp;rsquo;s life without a challenge or two?
 Diving right into the nitty-gritty, we looked at CRUD capabilities in Python.</description>
     </item>
     

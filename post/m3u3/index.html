@@ -51,7 +51,7 @@
   
   
   
-  <meta name="description" content="Unit 3: Programming Languages: History, Concepts &amp; Design Hi! This third week has been a thrilling deep dive into the history, concepts, and designs of programming languages, and I’m excited to share it with you.
+  <meta name="description" content="Unit 3: Programming Languages: History, Concepts &amp; Design Hi! This third week has been great! We explored the history, concepts, and designs of programming languages.
 We started the week with a journey through the evolution of programming languages. It was like time traveling, from the early days of machine code and assembly language with the SSEM and Cambridge EDSAC, all the way to the iconic 1950s with the birth of Cobol, Fortran, Lisp, and ALGOL." />
   <meta name="author" content="Sebastien" />
   
@@ -109,7 +109,7 @@ We started the week with a journey through the evolution of programming language
   <meta itemprop="name" content="Module 3 - Unit 3">
 <meta itemprop="description" content="Module three, Unit Three"><meta itemprop="datePublished" content="2023-10-28T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-10-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="310">
+<meta itemprop="wordCount" content="551">
 <meta itemprop="keywords" content="" />
   
   <meta property="og:title" content="Module 3 - Unit 3" />
@@ -221,12 +221,53 @@ We started the week with a journey through the evolution of programming language
   </header>
 
   <section><h2 id="unit-3-programming-languages-history-concepts--design">Unit 3: Programming Languages: History, Concepts &amp; Design</h2>
-<p>Hi! This third week has been a thrilling deep dive into the history, concepts, and designs of programming languages, and I’m excited to share it with you.</p>
+<p>Hi! This third week has been great! We explored the history, concepts, and designs of programming languages.</p>
 <p>We started the week with a journey through the evolution of programming languages. It was like time traveling, from the early days of machine code and assembly language with the SSEM and Cambridge EDSAC, all the way to the iconic 1950s with the birth of Cobol, Fortran, Lisp, and ALGOL. Understanding the roots of software languagues has never been so fascinating!</p>
 <p>Next up, we tackled key programming concepts, using Python (obviously). Exploring inheritance, polymorphism, and abstraction, I realised how crucial these concepts are for efficient and effective coding. It felt like unlocking a new level in my programming skills!</p>
 <p>Security took center stage as we navigated through common challenges and best practices. It was a bit daunting at first, but diving into the ISO/IEC Standard on security, I found myself getting comfortable with the complex terms and concepts.</p>
 <p>And then came the fascinating world of design patterns. Learning how they guide developers in designing robust and secure applications was an eye-opener. I think I like the Model View Controller (MVC) pattern (Pop and Altar, 2014). I also like the Domain Driven Design (DDD) approach quite a lot, Steinegger et al. gave some good insights on why DDD makes sense when building applications. In short, encapsulate the business logic into domains so that you know where to find your code when you need to make some changes. Makes perfect sense right?</p>
-<h2 id="references">References</h2>
+<h2 id="activities">Activities</h2>
+<p>This week, we also met as a team. Team Unity. We asked ourselves three questions:</p>
+<ol>
+<li>What factors determine whether a programming language is secure or not?
+We discussed that the security of a programming language is mostly determined by its design and how vulnerabilities are patched by its community.</li>
+<li>Could Python be classed as a secure language? Justify your answer.
+Python can be classed as secure due to its active open-source community that patches vulnerabilities quickly.
+However, like all languages, the security also depends on how developers use it.</li>
+<li>Python would be a better language to create operating systems than C. Discuss.
+Python and C serve different purposes. C offers low-level memory access and system-level operations.
+Python is high-level and abstracted, which might make OS development easier but potentially less efficient.</li>
+</ol>
+<p>## Code</p>
+<p>When we discussed the Python v C differences, I thought that I should at least try a bit of C
+Below is two simple functions that add two numbers together. One in Python and the other one in C.</p>
+<p>I personally know which one I prefer.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python3" data-lang="python3"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_numbers</span>(a, b):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>num1 <span style="color:#f92672">=</span> float(input(<span style="color:#e6db74">&#34;Enter first number: &#34;</span>))
+</span></span><span style="display:flex;"><span>num2 <span style="color:#f92672">=</span> float(input(<span style="color:#e6db74">&#34;Enter second number: &#34;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> add_numbers(num1, num2)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;The sum is:&#34;</span>, result)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> <span style="color:#a6e22e">add_numbers</span>(<span style="color:#66d9ef">float</span> a, <span style="color:#66d9ef">float</span> b) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">float</span> num1, num2, result;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Enter first number: &#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">scanf</span>(<span style="color:#e6db74">&#34;%f&#34;</span>, <span style="color:#f92672">&amp;</span>num1);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Enter second number: &#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">scanf</span>(<span style="color:#e6db74">&#34;%f&#34;</span>, <span style="color:#f92672">&amp;</span>num2);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> <span style="color:#a6e22e">add_numbers</span>(num1, num2);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;The sum is: %f</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, result);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="references">References</h2>
 <p>Pop, D.-P. and Altar, A. (2014). Designing an MVC Model for Rapid Web Application Development. Procedia Engineering, 69, pp.1172–1179. doi:https://doi.org/10.1016/j.proeng.2014.03.106.</p>
 <p>Steinegger, R., Giessler, P., Hippchen, B. and Abeck, S. (n.d.). Overview of a Domain-Driven Design Approach to Build Microservice-Based Applications. [online] Available at: <a href="https://cm.tm.kit.edu/download/domain_driven_microservice-architecture_17-03-15.pdf">https://cm.tm.kit.edu/download/domain_driven_microservice-architecture_17-03-15.pdf</a>.</p>
 </section>
