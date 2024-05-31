@@ -1,0 +1,11 @@
+content/activities/module_ten/code_with_lint.py:1:8: F401 [*] `io` imported but unused
+content/activities/module_ten/code_with_lint.py:2:1: F403 `from math import *` used; unable to detect undefined names
+content/activities/module_ten/code_with_lint.py:14:5: F841 Local variable `some_global_var` is assigned to but never used
+content/activities/module_ten/code_with_lint.py:27:13: E711 Comparison to `None` should be `cond is not None`
+content/activities/module_ten/code_with_lint.py:42:9: F841 Local variable `list_comprehension` is assigned to but never used
+content/activities/module_ten/code_with_lint.py:42:48: F405 `pi` may be undefined, or defined from star imports
+content/activities/module_ten/code_with_lint.py:43:9: F841 Local variable `time` is assigned to but never used
+content/activities/module_ten/code_with_lint.py:43:16: F823 Local variable `time` referenced before assignment
+content/activities/module_ten/code_with_lint.py:46:9: F841 Local variable `date_and_time` is assigned to but never used
+Found 9 errors.
+[*] 1 fixable with the `--fix` option (5 hidden fixes can be enabled with the `--unsafe-fixes` option).

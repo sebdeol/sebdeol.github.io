@@ -1,0 +1,4 @@
+content/activities/module_ten/code_with_lint.py:22:80: E501 line too long (80 > 79 characters)
+content/activities/module_ten/code_with_lint.py:27:10: E711 comparison to None should be 'if cond is not None:'
+content/activities/module_ten/code_with_lint.py:42:80: E501 line too long (87 > 79 characters)
+content/activities/module_ten/code_with_lint.py:47:15: W292 no newline at end of file

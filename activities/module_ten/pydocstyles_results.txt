@@ -1,0 +1,18 @@
+content/activities/module_ten/code_with_lint.py:1 at module level:
+        D100: Missing docstring in public module
+content/activities/module_ten/code_with_lint.py:11 in public function `multiply`:
+        D200: One-line docstring should fit on one line with quotes (found 3)
+content/activities/module_ten/code_with_lint.py:11 in public function `multiply`:
+        D400: First line should end with a period (not 's')
+content/activities/module_ten/code_with_lint.py:11 in public function `multiply`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+content/activities/module_ten/code_with_lint.py:22 in public function `is_sum_lucky`:
+        D205: 1 blank line required between summary line and description (found 0)
+content/activities/module_ten/code_with_lint.py:22 in public function `is_sum_lucky`:
+        D400: First line should end with a period (not 'y')
+content/activities/module_ten/code_with_lint.py:22 in public function `is_sum_lucky`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+content/activities/module_ten/code_with_lint.py:38 in public class `SomeClass`:
+        D101: Missing docstring in public class
+content/activities/module_ten/code_with_lint.py:39 in public method `__init__`:
+        D107: Missing docstring in __init__

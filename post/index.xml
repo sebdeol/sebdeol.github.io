@@ -6,16 +6,140 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Module Three</title>
-      <link>/post/module_three/</link>
-      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <title>Software Engineering Project Management</title>
+      <link>/post/module_six/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>/post/module_three/</guid>
-      <description>Welcome to module 3! Here are another 12 weeks of self reflection, broken down by units.
-Below is a small extract for this module directly from the course&amp;rsquo;s website:
-In this module, we’ll take an in depth look at the security risks which are associated with programming languages, from the perspectives of design and architecture approaches, programming paradigms, testing, the impact and implications of operating systems and libraries on software development, the security risks associated with distributed systems and APIs, and future trends in secure software and systems design.</description>
+      <guid>/post/module_six/</guid>
+      <description>Welcome back to my e-portfolio and to the Software Engineering Project Management module!
+As usual, here&amp;rsquo;s a small extract from the course&amp;rsquo;s website:
+In this module, you will be exposed to what it means to be a Project Manager of a software engineering project. We will examine the relationships between the Project Manager and the other stakeholders in a project, and the role that the Project Manager has in ensuring that the triple constraints of project management are balanced, and any technical debt is not accrued.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 12</title>
+      <link>/post/m6u12/</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u12/</guid>
+      <description>The Case for the Future Direction of Software Engineering Project Management Final week of this module! Time flies! I can&amp;rsquo;t believe it&amp;rsquo;s already been 12 weeks. This module just flew by.
+I have appreciated this module in its entirety. Even though I did mention in unit 1 that I don&amp;rsquo;t particularly envisage a career in product management. The module was well structured and definitely kept me busy. We had a lot of materials and activities to complete, and I can assure you that I spent a few nights understanding how everything fit together.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 11</title>
+      <link>/post/m6u11/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u11/</guid>
+      <description>Software Engineering Project Management: Future Trends Welcome to unit 11, the next to last for this module. This week, I&amp;rsquo;ll mainly reflect on the assignment that I had to submit.
+Following the group task assignment in unit 6, we were now given the assignment of a follow-up meeting happening 12 months later. The meeting is to give a project update to the main stakeholders. This was individual task. We had to record a 20 minutes presentation and provide a full transcript of the video.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 10</title>
+      <link>/post/m6u10/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u10/</guid>
+      <description>Software Quality Monitoring in Python Again, for this unit, I won&amp;rsquo;t reflect with a lot of words, I think it&amp;rsquo;s better to keep focused on the activity below.
+Activity: Using Linters to Achieve Python Code Quality We were tasked with analysing some python code using different linters.
+I have run the code through four linters as suggested, but I also researched the latest on the web, and I saw that Ruff (docs.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 9</title>
+      <link>/post/m6u9/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u9/</guid>
+      <description>Quality Management Strategy I won&amp;rsquo;t reflect much on this unit as I&amp;rsquo;d rather focus on the python exercise, but overall, this week provided various metrics and strategies for quality management. I also learned about the critical role of planning to prevent technical debt and to ensure the delivery of high quality software.
+## e-Portfolio Activity: Improving Code Quality
+This is some example of some old code that I wrote in the past:</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 8</title>
+      <link>/post/m6u8/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u8/</guid>
+      <description>Python Data Structures Data structures, here we go! In previous modules, I have already explored a few of Python&amp;rsquo;s data structures. If I had to list my favourite four, they would be:
+Lists - They are quite versatile and easy to use. Dictionaries - We can&amp;rsquo;t go wrong with key-value pairs storage. Dictionaries also allow for fast searching. Sets - Super useful for storing unique items. Tuples - Perfect for immutable sequences such as records that shouldn’t be modified.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 7</title>
+      <link>/post/m6u7/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u7/</guid>
+      <description>Software Development Life Cycles In unit 7, we focused on the many aspects of the Software Development Life Cycles (SDLCs) and their overall impact on project management. The two main focus points were the Waterfall and Agile methodologies. I have had exposure to both methodologies, but I am by no means an expert. In our previous group task, we decided to use the Waterfall approach (which I personally think is quite outdated), I&amp;rsquo;d have rather used the Agile approach which I fits more with my approach of doing things, small iterations that always give the user a bit more than what they had before.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 6</title>
+      <link>/post/m6u6/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u6/</guid>
+      <description>pytest and Test-Driven Development Welcome to unit 6 reflections! We&amp;rsquo;re now halfway through this module which also means that it&amp;rsquo;s assessment week.
+Last week we were given an introduction to testing, but this week is where all the meat is.
+This week provided a good balance between theoretical and practical work. I have really enjoyed the pytest activity.
+I have managed to make all the tests fail as per the requirements.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 5</title>
+      <link>/post/m6u5/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u5/</guid>
+      <description>User Experience In unit 5, we explored User Experience (UX), and realistically, I knew nothing about UX so I was hoping to learn a lot this week.
+When I first opened the unit page on the university learning web app, I did not understand why we had a whole unit on UX in a project management module. However, after this week, I appreciate the learning. Project management is a multifaceted role, so it became clear that a project manager is also responsible to orchestrate all the UX efforts.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 4</title>
+      <link>/post/m6u4/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u4/</guid>
+      <description>Estimating Tools and Risk Assessment As I reflect on unit 4, I am starting to feel that I am getting a bit better on all things related to project management. This week, I have enjoyed the more recent reading materials, it&amp;rsquo;s a nice change from reading about project management in the 1970s.
+In this unit, I met with my fellow group students for the first time. You&amp;rsquo;d think that with a deadline due in two weeks we would have met sooner, but no.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 3</title>
+      <link>/post/m6u3/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u3/</guid>
+      <description>Estimating, Planning and Risk In unit 3, we explored some more concepts in the project management space, such as estimation, planning, and risk. The unit highlighted and explored the importance of accurate estimation, proper planning, and comprehensive risk assessment in software project management.
+e-Portfolio Activity: Data Structures Reflection As I use the UoEO platform nearly every day, I thought I would analyse and reflect on it. If I were to build something similar myself, this is how I would do it:</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 2</title>
+      <link>/post/m6u2/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u2/</guid>
+      <description>Study: Why Projects Fail and Gathering Requirements Exercise Week number two, here we go. Unit 2 had a strong emphasis on exploring and reading why projects fail. I mean, just type in into Google: why do projects fail in project management and you&amp;rsquo;ll have more reading material than you can ingest for the next decade:
+After reading the given materials and also researching on my own, it&amp;rsquo;s becoming quite clear to me why projects fail.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Project Management - Unit 1</title>
+      <link>/post/m6u1/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/m6u1/</guid>
+      <description>Introduction to Software Engineering Project Management Welcome to the Software Engineering Project Maangement module!
+This module introduces us to the concept of Project Management. Full disclaimer: I do not intend to become a PM, but I still believe it would be beneficial for me to understand how the world of project management works. Understanding both sides of the equation is always beneficial.
+This unit provided a solid introduction to the role of a Software Engineering Project Manager (SEPM) and how it differs from traditional project management.</description>
     </item>
     
     <item>
@@ -139,6 +263,17 @@ Operating Systems, are like the backstage crew of a rock concert. You don’t se
       <guid>/post/m3u9/</guid>
       <description>Unit 9: Developing an API for a Distributed Environment If you thought the past weeks were intense, brace yourself! Week 9 has thrown me right into the thick of developing APIs for a distributed environment. With work in the US and my studies ramping up, it’s been a tough week, but hey, what&amp;rsquo;s life without a challenge or two?
 Diving right into the nitty-gritty, we looked at CRUD capabilities in Python.</description>
+    </item>
+    
+    <item>
+      <title>Secure Software Development</title>
+      <link>/post/module_three/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/module_three/</guid>
+      <description>Welcome to module 3! Here are another 12 weeks of self reflection, broken down by units.
+Below is a small extract for this module directly from the course&amp;rsquo;s website:
+In this module, we’ll take an in depth look at the security risks which are associated with programming languages, from the perspectives of design and architecture approaches, programming paradigms, testing, the impact and implications of operating systems and libraries on software development, the security risks associated with distributed systems and APIs, and future trends in secure software and systems design.</description>
     </item>
     
     <item>
@@ -269,7 +404,7 @@ I learned that packaging my Python programs is crucial for distributing software
     </item>
     
     <item>
-      <title>Module Two</title>
+      <title>Introduction to Object Oriented Design</title>
       <link>/post/module_two/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       
@@ -281,12 +416,12 @@ In this module, we will use the Python programming language to support the desig
     </item>
     
     <item>
-      <title>Module One</title>
+      <title>Launching into Computer Science</title>
       <link>/post/module_one/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/module_one/</guid>
-      <description>Coming soon :construction:
+      <description>Coming soon 🚧
 Unit 1 Unit 2 Unit 3 Unit 4 Unit 5 Unit 6 Unit 7 Unit 8 Unit 9 Unit 10 Unit 11 Unit 12 </description>
     </item>
     

@@ -1,0 +1,27 @@
+************* Module code_with_lint
+content/activities/module_ten/code_with_lint.py:47:0: C0304: Final newline missing (missing-final-newline)
+content/activities/module_ten/code_with_lint.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+content/activities/module_ten/code_with_lint.py:2:0: W0622: Redefining built-in 'pow' (redefined-builtin)
+content/activities/module_ten/code_with_lint.py:2:0: W0401: Wildcard import math (wildcard-import)
+content/activities/module_ten/code_with_lint.py:7:0: C0103: Constant name "some_global_var" doesn't conform to UPPER_CASE naming style (invalid-name)
+content/activities/module_ten/code_with_lint.py:14:4: W0621: Redefining name 'some_global_var' from outer scope (line 7) (redefined-outer-name)
+content/activities/module_ten/code_with_lint.py:17:4: W0101: Unreachable code (unreachable)
+content/activities/module_ten/code_with_lint.py:14:4: W0612: Unused variable 'some_global_var' (unused-variable)
+content/activities/module_ten/code_with_lint.py:27:7: C0121: Comparison 'x != None' should be 'x is not None' (singleton-comparison)
+content/activities/module_ten/code_with_lint.py:30:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+content/activities/module_ten/code_with_lint.py:21:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+content/activities/module_ten/code_with_lint.py:38:0: C0115: Missing class docstring (missing-class-docstring)
+content/activities/module_ten/code_with_lint.py:43:8: W0621: Redefining name 'time' from outer scope (line 5) (redefined-outer-name)
+content/activities/module_ten/code_with_lint.py:43:15: E0601: Using variable 'time' before assignment (used-before-assignment)
+content/activities/module_ten/code_with_lint.py:44:8: C0415: Import outside toplevel (datetime.datetime) (import-outside-toplevel)
+content/activities/module_ten/code_with_lint.py:39:4: R1711: Useless return at end of function or method (useless-return)
+content/activities/module_ten/code_with_lint.py:39:49: W0613: Unused argument 'verbose' (unused-argument)
+content/activities/module_ten/code_with_lint.py:42:8: W0612: Unused variable 'list_comprehension' (unused-variable)
+content/activities/module_ten/code_with_lint.py:46:8: W0612: Unused variable 'date_and_time' (unused-variable)
+content/activities/module_ten/code_with_lint.py:38:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+content/activities/module_ten/code_with_lint.py:1:0: W0611: Unused import io (unused-import)
+content/activities/module_ten/code_with_lint.py:5:0: W0611: Unused time imported from time (unused-import)
+content/activities/module_ten/code_with_lint.py:2:0: W0614: Unused import(s) acos, acosh, asin, asinh, atan, atan2, atanh, cbrt, ceil, comb, copysign, cos, cosh, degrees, dist, e, erf, erfc, exp, exp2, expm1, fabs, factorial, floor, fmod, frexp, fsum, gamma, gcd, hypot, inf, isclose, isfinite, isinf, isnan, isqrt, lcm, ldexp, lgamma, log, log10, log1p, log2, modf, nan, nextafter, perm, pow, prod, radians, remainder, sin, sinh, sqrt, tan, tanh, tau, trunc and ulp from wildcard import of math (unused-wildcard-import)
+
+-----------------------------------
+Your code has been rated at 0.00/10

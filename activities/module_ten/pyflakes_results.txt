@@ -1,0 +1,8 @@
+content/activities/module_ten/code_with_lint.py:1:1: 'io' imported but unused
+content/activities/module_ten/code_with_lint.py:2:1: 'from math import *' used; unable to detect undefined names
+content/activities/module_ten/code_with_lint.py:14:5: local variable 'some_global_var' is assigned to but never used
+content/activities/module_ten/code_with_lint.py:42:48: 'pi' may be undefined, or defined from star imports: math
+content/activities/module_ten/code_with_lint.py:42:9: local variable 'list_comprehension' is assigned to but never used
+content/activities/module_ten/code_with_lint.py:43:16: local variable 'time' defined in enclosing scope on line 5 referenced before assignment
+content/activities/module_ten/code_with_lint.py:43:9: local variable 'time' is assigned to but never used
+content/activities/module_ten/code_with_lint.py:46:9: local variable 'date_and_time' is assigned to but never used
